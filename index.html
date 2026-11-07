@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#100d20">
+  <title>Happy Birthday, Isha Ma’am ✨</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <nav class="nav">
+    <a class="brand" href="#home"><span class="brand-mark">✦</span> A little celebration</a>
+    <button class="music-btn" id="musicBtn" aria-label="Toggle birthday music"><span id="musicIcon">♫</span><span id="musicLabel">Play music</span></button>
+  </nav>
+
+  <main id="home">
+    <section class="hero section">
+      <div class="eyebrow"><span></span> A SPECIAL DAY • A SPECIAL PERSON <span></span></div>
+      <p class="pretitle reveal">Today, the world feels a little brighter…</p>
+      <h1 class="reveal">Happy Birthday,<br><em>Isha Ma’am</em><span class="sparkle">✧</span></h1>
+      <p class="hero-copy reveal">Celebrating a wonderful teacher whose kindness, guidance<br class="desktop"> and presence make a lasting difference.</p>
+      <a class="scroll-cue" href="#message">SCROLL TO CELEBRATE <span>↓</span></a>
+      <div class="hero-orbit orbit-a"></div><div class="hero-orbit orbit-b"></div>
+    </section>
+
+    <section class="message-section section" id="message">
+      <div class="section-kicker reveal">A NOTE FROM THE HEART</div>
+      <div class="message-card reveal">
+        <div class="card-star">✦</div>
+        <h2>To an inspiring<br><em>Ma’am</em></h2>
+        <p>Dear Isha Ma’am,</p>
+        <p>Wishing you a birthday filled with happiness, peace, good health and countless beautiful moments. Your dedication, patience and the way you guide and encourage others truly make a difference.</p>
+        <p>May the year ahead bring you new achievements, meaningful memories and every reason to smile. Thank you for being such a wonderful source of learning and inspiration.</p>
+        <p class="signature">With warm wishes & respect, <span>— Harsh Nishant</span></p>
+      </div>
+    </section>
+
+    <section class="portrait-section section">
+      <div class="portrait-frame reveal">
+        <div class="portrait-glow"></div>
+        <img id="teacherPhoto" src="assets/isha-portrait-02.jpg" alt="Photo of Isha Ma’am">
+        <div class="portrait-caption"><span>THE PERSON WE CELEBRATE</span><strong>Isha Ma’am</strong></div>
+      </div>
+      <div class="portrait-note reveal"><span class="quote-mark">“</span><h2>Great teachers leave<br> footprints on hearts.</h2><p>A small digital tribute for someone who makes learning meaningful.</p></div>
+    </section>
+
+    <section class="gallery-section section" id="memories">
+      <div class="section-kicker reveal">A FEW BEAUTIFUL MOMENTS</div>
+      <h2 class="section-title reveal">Little moments, lovely memories.</h2>
+      <div class="photo-gallery">
+        <figure class="gallery-photo reveal"><img src="assets/isha-portrait-01.jpg" alt="Isha Ma’am smiling"><figcaption>A lovely moment</figcaption></figure>
+        <figure class="gallery-photo reveal"><img src="assets/isha-portrait-02.jpg" alt="Isha Ma’am portrait"><figcaption>Simply graceful</figcaption></figure>
+        <figure class="gallery-photo reveal"><img src="assets/isha-portrait-03.jpg" alt="Isha Ma’am in traditional attire"><figcaption>Always radiant</figcaption></figure>
+        <figure class="gallery-photo reveal"><img src="assets/memory-01.jpg" alt="A shared campus memory"><figcaption>Campus memories</figcaption></figure>
+        <figure class="gallery-photo reveal"><img src="assets/memory-02.jpg" alt="A shared outing memory"><figcaption>Moments to remember</figcaption></figure>
+      </div>
+    </section>
+
+    <section class="wishes-section section">
+      <div class="section-kicker reveal">WISHING YOU THE BEST</div>
+      <h2 class="section-title reveal">May your year be filled with…</h2>
+      <div class="wish-grid">
+        <article class="wish reveal"><div>✧</div><h3>Happiness</h3><p>Little moments that turn into beautiful memories.</p></article>
+        <article class="wish reveal"><div>♡</div><h3>Good Health</h3><p>Strength, peace and wellness in every season.</p></article>
+        <article class="wish reveal"><div>✦</div><h3>Success</h3><p>New milestones and dreams coming true.</p></article>
+      </div>
+    </section>
+
+    <section class="closing section">
+      <div class="closing-stars">✦　✧　✦</div>
+      <p class="section-kicker">ON YOUR SPECIAL DAY</p>
+      <h2 class="reveal">Keep inspiring.<br><em>Keep shining.</em></h2>
+      <p class="closing-copy">Have the most wonderful birthday, Isha Ma’am!</p>
+      <button class="celebrate-btn" id="celebrateBtn">Celebrate this moment <span>✦</span></button>
+      <footer>MADE WITH RESPECT & WARM WISHES <span>♡</span></footer>
+    </section>
+  </main>
+  <canvas id="confetti"></canvas>
+  <audio id="birthdayAudio" src="assets/birthday-music.mp3" loop></audio>
+  <script src="script.js"></script>
+</body>
+</html>
